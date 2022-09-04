@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins',sans-serif; */
+}
+.theme{
+    font-family: Quicksand;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: absolute;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content h1{
+    font-size: 140px;
+    color: #fff;
+    font-weight: 400;
+}
+.content a{
+display: inline-block;
+color: #fff;
+padding: 14px 70px;
+border-radius: 50px;
+border: 2px solid wheat;
+margin-top: 20px;
+text-decoration: none;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+ 
+.logo{
+    float: left;
+    padding: 5px 5px;
+    width: 70px;
+   border-radius: 50px;
+   margin-left: 50px;
+   text-decoration: none;
+}  
+.hero{
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: absolute;
+    padding:0 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+.back-video{
+    position:fixed;
+    width:100%;
+    right:0;
+    left:0;
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+nav ul li{
+   list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+ }
+nav ul li a{
+    text-decoration:none;
+    color:#ffff;
+    font-size: 17px;
+}
+.content{
+    position:absolute;
+}
+
+.bottomText {
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+    
+    /* bottom: 0; */
+    margin-top: 600px;
+}
+.bottomText a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  .show {display: block;}
